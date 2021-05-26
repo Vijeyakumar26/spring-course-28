@@ -1,0 +1,12 @@
+package com.junit.test;
+
+import org.junit.jupiter.api.Test;
+
+class AssertTest {
+
+	@Test
+	void test() {
+	
+	}
+
+}

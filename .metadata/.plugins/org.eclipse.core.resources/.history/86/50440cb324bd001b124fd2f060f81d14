@@ -1,0 +1,6 @@
+package com.springboot.aspect;
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface TrackTime {
+
+}

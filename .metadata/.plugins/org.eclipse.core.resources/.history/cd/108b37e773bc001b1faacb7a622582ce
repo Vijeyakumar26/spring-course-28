@@ -1,0 +1,13 @@
+package com.springboot.aspect;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.Configuration;
+
+//AOP
+//Configuration	
+@Configuration
+public class BeforeAspect {
+	
+	Logger logger = LoggerFactory.getLogger(this.getClass());
+}

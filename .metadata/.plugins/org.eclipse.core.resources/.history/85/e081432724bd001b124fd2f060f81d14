@@ -1,0 +1,10 @@
+package com.springboot.aspect;
+public class CommonJoinPointConfig {
+	
+	@Pointcut("execution(* com.in28minutes.spring.aop.springaop.data.*.*(..))")
+	public void dataLayerExecution(){}
+	
+	@Pointcut("execution(* com.in28minutes.spring.aop.springaop.business.*.*(..))")
+	public void businessLayerExecution(){}
+
+}

@@ -1,0 +1,7 @@
+package com.springboot.jpa;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public class PersonDataJPARepository implements JpaRepository<Person, long>{
+
+}

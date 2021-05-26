@@ -1,0 +1,25 @@
+package com.springboot;
+
+
+
+import org.slf4j.Logger;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringbootAopApplication implements CommandLineRunner {
+
+	private Logger logger = Logger.getLogger(this.getClass());
+		
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootAopApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+		
+	}
+
+}

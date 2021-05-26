@@ -1,0 +1,8 @@
+package com.springboot;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class Buisness1 {
+
+}

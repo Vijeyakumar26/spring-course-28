@@ -1,0 +1,16 @@
+package com.springboot.jpa;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import com.springboot.jdbc.Person;
+
+public class PersonJPARepository {
+	
+	@PersistenceContext
+	EntityManager entityManager;
+	
+	public Person findById(int id) {
+		return entityManager.find(Person.class, id);//JPA
+	}
+}

@@ -1,0 +1,12 @@
+1621583632930	Copy package
+1621583674789	Rename package 'com.basic.core.copy'
+1621584570710	Copy compilation unit
+1621584594413	Rename type 'BasicApplication'
+1621584963732	Move compilation unit
+1621585034851	Rename package 'com.basic.core'
+1621585062270	Rename package 'com.basic.scope'
+1621585075134	Rename package 'com.basic.componentScan'
+1621585194629	Copy compilation unit
+1621585211691	Rename type 'ScopeApplication'
+1621607550226	Copy compilation unit
+1621607573843	Rename type 'ComponentScanApplication'

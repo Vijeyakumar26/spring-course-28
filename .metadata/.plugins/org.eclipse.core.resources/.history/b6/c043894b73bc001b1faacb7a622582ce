@@ -1,0 +1,5 @@
+package com.springboot.aspect;
+
+public class BeforeAspect {
+
+}
