@@ -1,5 +1,0 @@
-package com.basic.scope;
-
-public class JdbcConnection {
-
-}

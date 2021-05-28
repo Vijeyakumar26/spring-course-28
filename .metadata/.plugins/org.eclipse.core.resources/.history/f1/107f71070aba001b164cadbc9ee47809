@@ -1,5 +1,0 @@
-package com.basic.core;
-
-public interface SortAlgorithm {
-
-}
